@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+
+            android:background="@drawable/bg_selector"
+            android:id="@+id/imgLinearLayout"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/ic_add_white_24dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            android:visibility="gone"
+            android:id="@+id/cardTypeLinearLayout"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/creditCard"
+                android:gravity="center"
+                android:background="@drawable/bg_selector"
+                android:text="@string/card_type_card"
+                android:layout_width="0dp"
+                android:textSize="16sp"
+                android:textColor="@color/qlip_main_green"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <TextView
+
+                android:id="@+id/checkCard"
+                android:background="@drawable/bg_selector"
+                android:gravity="center"
+                android:text="@string/card_type_check"
+                android:textSize="16sp"
+                android:textColor="@color/qlip_main_green"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <TextView
+
+                android:id="@+id/bank_account"
+                android:background="@drawable/bg_selector"
+                android:gravity="center"
+                android:text="@string/card_type_bank_account"
+                android:textSize="16sp"
+                android:textColor="@color/qlip_main_green"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:id="@+id/editTextLinearLayout"
+            android:visibility="gone"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <EditText
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:textColor="@color/qlip_main_white"
+                android:inputType="textEmailAddress"
+                android:background="@color/transparent_background"
+                android:textColorHint="#727272"
+                android:textSize="14sp"
+                android:maxLength="10"
+                android:hint="@string/select_card_hint"
+                android:id="@+id/cardNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp" />
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>

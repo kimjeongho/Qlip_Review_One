@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/qlip_main_dark_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tenqube.qlip_review_one.MainActivity">
+
+    <Button
+        android:textColor="@color/qlip_main_dark_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tranning_Activity"
+        android:id="@+id/btn_tranning"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/textView"
+        android:layout_below="@+id/btn_tranning"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="@color/qlip_main_dark_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카드 삭제"
+        android:id="@+id/btn_delete"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/btn_tranning"
+        android:layout_toRightOf="@+id/btn_tranning"
+        android:layout_toEndOf="@+id/btn_tranning" />
+
+    <Button
+        android:textColor="@color/qlip_main_dark_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카드 수정"
+        android:id="@+id/btn_update"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/btn_tranning"
+        android:layout_toRightOf="@+id/btn_delete"
+        android:layout_toEndOf="@+id/btn_delete" />
+
+    <Button
+        android:textColor="@color/qlip_main_dark_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPagerEX"
+        android:id="@+id/btn_pager"
+        android:layout_below="@+id/btn_tranning"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:textColor="@color/qlip_main_dark_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerChart"
+        android:id="@+id/btn_chart"
+        android:layout_below="@+id/btn_pager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:textColor="@color/qlip_main_dark_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excel"
+        android:id="@+id/btn_excel"
+        android:layout_below="@+id/btn_chart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

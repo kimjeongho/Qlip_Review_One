@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QlipReview</string>
+    <string name="card_type_card">신용</string>
+    <string name="card_type_check">체크</string>
+    <string name="card_type_bank_account">은행계좌</string>
+    <string name="select_card_hint">이름을 입력하세요.</string>
+    <string name="card_type_cash">현금</string>
+    <string name="select_card_error_msg_1">카드 이름을 입력해 주세요.</string>
+    <string name="select_card_error_msg_2">최대 10글자까지 가능합니다.</string>
+    <string name="select_card_error_msg_3">이미 같은 카드 이름이 존재합니다.</string>
+
+    <string name="title_activity_select_card">지출 수단</string>
+    <string name="delete">삭제</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_swipe_refresh">Swipe Refresh</string>
+    <string name="title_activity_mini_drawer">Mini Drawer</string>
+    <string name="title_activity_nested_toolbar">Nested Toolbar</string>
+    <string name="action_search">Search</string>
+    <string name="action_view_module">View</string>
+    <string name="title_quick_return">Quick Return</string>
+    <string name="title_activity_reveal">Reveal Animation</string>
+    <string name="title_activity_reveal_animation">Reveal Animation</string>
+    <string name="title_activity_launch_screen">LaunchScreenActivity</string>
+    <string name="title_activity_gmail_style">Gmail List</string>
+    <string name="title_activity_tabs_header">Header Tabs</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="section_format">Page %1$d</string>
+    <string name="lv1_weekly_chart_12_weeks">12주 평균</string>
+    <string name="lv1_weekly_4_2_title">이번 주</string>
+</resources>
