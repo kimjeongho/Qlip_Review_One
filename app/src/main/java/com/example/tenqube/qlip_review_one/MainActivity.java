@@ -8,6 +8,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.tenqube.qlip_review_one.base.BaseActivity;
+import com.example.tenqube.qlip_review_one.constans.Constants;
+import com.example.tenqube.qlip_review_one.tranning.TranningSelectCardActivity;
 import com.example.tenqube.qlip_review_one.viewpageranim.ViewPagerActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener{
@@ -29,6 +31,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     public void onClick(View v) {
         Intent intent;
         switch (v.getId()){
+            case R.id.btn_tranning:
+                intent = new Intent(MainActivity.this, TranningSelectCardActivity.class);
+                startActivityForResult(intent, Constants.RequestCode.SELECT_CARD);
+                break;
+
             case R.id.btn_pager:
                 intent = new Intent(MainActivity.this, ViewPagerActivity.class);
                 startActivity(intent);
